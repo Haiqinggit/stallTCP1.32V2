@@ -14,7 +14,7 @@
 
 *   **Worker / Pages 部署**：请使用 **`_worker.js`** 代码。
     *   *UI 特效：高级毛玻璃风格*
-*   **Snippets 部署**：请使用 **`snippets.js`** 代码。
+*   **Snippets 部署**：请使用 **`snippets.js`** 代码。 【也支持worker/pages部署】
     *   *UI 特效：紫色渐变风格*
 
 **如果项目对您有帮助，请给我点亮星星 Star 🌟 谢谢！**
@@ -128,7 +128,7 @@
 
 ## 💾 关键步骤：绑定 KV (强烈推荐)
 
-**无论使用哪种部署方式，为了实现黑名单永久保存、后台配置记忆，请务必绑定 KV：**
+**无论使用哪种部署方式，为了实现黑名单永久保存、后台配置记忆，请务必绑定 KV：** 【worker代码支持KV空间】
 
 1.  在 Cloudflare 左侧菜单选择 **Workers & Pages** -> **KV**。
 2.  点击 **创建命名空间 (Create a Namespace)**，命名为 `BLACKLIST`（或任意名称）。
